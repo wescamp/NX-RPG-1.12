@@ -1,0 +1,3509 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NX-RPG-1.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-25 19:05-0400\n"
+"PO-Revision-Date: 2013-08-25 19:05-0400\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: NX-RPG/_main.cfg:42
+msgid "Music pack “Sod Music” is installed. Extra music will be played."
+msgstr ""
+
+#: NX-RPG/_main.cfg:45
+msgid ""
+"Music pack “SoD Music” is not installed. Only standard music will be played."
+msgstr ""
+
+#: NX-RPG/_main.cfg:56
+msgid "This campaign requires Wesnoth version"
+msgstr ""
+
+#: NX-RPG/_main.cfg:56
+msgid "or higher. You have Wesnoth version"
+msgstr ""
+
+#: NX-RPG/_main.cfg:56
+msgid "Please update your Wesnoth installation."
+msgstr ""
+
+#: NX-RPG/_main.cfg:68
+msgid "Version"
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:10
+msgid "Creator and Lead Designer"
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:17
+msgid "Campaign Maintenance"
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:31
+msgid "Coding Assistants"
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:61
+msgid "Graphics"
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:95
+msgid "Music"
+msgstr ""
+
+#. [about]
+#: NX-RPG/about.cfg:107
+msgid "Additional thanks to"
+msgstr ""
+
+#. [entry]
+#: NX-RPG/about.cfg:122
+msgid "You, for playing this campaign"
+msgstr ""
+
+#. [entry]
+#: NX-RPG/about.cfg:125
+msgid "Anyone else I could forget to mention"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:5
+msgid "SoD"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:6
+msgid "Shadows of Deception:"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:7
+msgid "Episode I: Deceit"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:17
+msgid ""
+"A shadow lengthens across the land; a faceless evil plots to overthrow the "
+"Empire. No one holds all the pieces. The fate of a kingdom rests in the "
+"hands of a despairing few, but will they be able to tell friend from foe?"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:19
+msgid "(Intermediate level, 6 of 12 scenarios complete)"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "difficulty_menu^Wanderer"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "(Hard)"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "(Easy)"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "(Normal)"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "difficulty_menu^Apprentice"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#: NX-RPG/episode1/menu.cfg:22
+msgid "difficulty_menu^Spellbinder"
+msgstr ""
+
+#. [campaign]: id=NXRPG-E1
+#. [endlevel]
+#: NX-RPG/episode1/menu.cfg:24 NX-RPG/macros/scenario-utils.cfg:31
+msgid "To be continued..."
+msgstr ""
+
+#. [scenario]: id=00_Descry
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:5
+msgid "Descry"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:25
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:57
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:27
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:51
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:27
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:26
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:22
+msgid "team_name^Niryone"
+msgstr ""
+
+#. [side]
+#. [side]: type=General, id=Lord Myris
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:43
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:105
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:163
+msgid "team_name^Townsmen"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:58
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:30
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:52
+#: NX-RPG/episode1/scenarios/08_01_Reunion.cfg:28
+msgid "team_name^Rhyan"
+msgstr ""
+
+#. [interim_text]
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:95
+msgid "<i>“Before the end in fire and sand </i>"
+msgstr ""
+
+#. [interim_text]
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:99
+msgid "<i>When empires would Fall by a Goddess's hand </i>"
+msgstr ""
+
+#. [interim_text]
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:103
+msgid "<i>A kingdom will fall and an empire will rise </i>"
+msgstr ""
+
+#. [interim_text]
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:107
+msgid "<i>Hope will fail, and true love die” </i>"
+msgstr ""
+
+#. [message]
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:139
+msgid "Halt! Who goes there!?"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:144
+msgid "You know us."
+msgstr ""
+
+#. [message]
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:149
+msgid ""
+"Alright. We just had to be sure. I... never mind. If you’re looking for your "
+"friend, he left a message to wait. He said he’d be right back."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:166
+msgid "That bandit attack was worse than usual, Irdya curse them."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:171
+msgid "They took us unprepared; I could have dealt with them."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:176
+msgid ""
+"Could you? A dozen enemies, all targeting you at once, armed with various "
+"weapons? We elves are fragile — one good hit is enough to stun us for a "
+"moment. In groups we can relieve this weakness through teamwork, but alone "
+"you would be overwhelmed in an instant. Not even I am excepted from such a "
+"fate, were I to be in the same situation."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:181
+msgid "I suppose you’re right. Though, granted, you have more skill than I."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:186
+msgid ""
+"(<i>smiles</i>) True enough. But you have potential to reach my level of "
+"skill, and perhaps surpass it. You are already powerful for your age; most "
+"elvish children are not so adept. Now, where’s Rhyan gone off to?"
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:191
+msgid "He said he’d go ahead and get some supplies from the town."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:200
+msgid ""
+"The leader of the attack said something weird before he fled. <i>“We thought "
+"you were some of them! The impersonators!”</i>"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:209
+msgid ""
+"I know not to what he could be referring, but whatever it is, it will "
+"probably mean trouble for someone."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:240
+msgid ""
+"The two elves’ companion appeared, clutching an empty bag under his arm."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:245
+msgid "Ah, there you are. But why haven’t you gotten any supplies?"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:250
+msgid "(<i>shrug</i>)"
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:255
+msgid "Well, you're back —"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:261
+msgid "Elynia stopped suddenly, noticing a large gash on her friend’s arm."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:271
+msgid "Your arm! Here…"
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:331
+msgid "AHH!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:337
+msgid ""
+"Elynia stared as the human screamed and clutched his arm, the healing magic "
+"burning a black swath across his skin. Her mentor looked on with narrowed "
+"eyes."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:342
+msgid "You — you — that was black magic!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:351
+msgid "Who are you and what have you done with the real Rhyan?"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:356
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:406
+msgid "(<i>silence</i>)"
+msgstr ""
+
+#. [unit]: type=Deathblade, id=Rhyan
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:390
+#: NX-RPG/episode1/utils/characters.cfg:21
+#: NX-RPG/episode1/utils/characters.cfg:36
+msgid "Rhyan"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:401
+msgid "Last chance. Who are you and what do you want?"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:411
+msgid "So be it."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:427
+msgid ""
+"Something’s definitely not right, here. There’s something in that rabble’s "
+"words after all...."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/00_Descry.cfg:432
+msgid "(<i>shakily</i>) A- Agreed. Now, where’s the real Rhyan?"
+msgstr ""
+
+#. [part]
+#. [scenario]: id=01_Seer_and_Outlaw
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:5
+#: NX-RPG/episode1/utils/storytext.cfg:31
+msgid "Seer and Outlaw"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:123
+msgid "Revalyn"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:131
+msgid "Faramor"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:139
+msgid "Asurya"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:148
+msgid "Lerion"
+msgstr ""
+
+#. [side]: type=General, id=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:168
+msgid "Lord Myris"
+msgstr ""
+
+#. [side]: type=General, id=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:190
+msgid "Malana"
+msgstr ""
+
+#. [side]: type=General, id=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:199
+msgid "Famiror"
+msgstr ""
+
+#. [side]: type=General, id=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:207
+msgid "Elyroddryn"
+msgstr ""
+
+#. [side]: type=General, id=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:215
+msgid "Ayana"
+msgstr ""
+
+#. [side]: type=Ranger, id=Karaul
+#. [side]: type=Rogue, id=Varyloryn
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:231
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:291
+msgid "team_name^Outlaws"
+msgstr ""
+
+#. [side]: type=Ranger, id=Karaul
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:236
+msgid "Karaul"
+msgstr ""
+
+#. [side]: type=Ranger, id=Karaul
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:259
+msgid "Javeryn"
+msgstr ""
+
+#. [side]: type=Ranger, id=Karaul
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:267
+msgid "Wellow"
+msgstr ""
+
+#. [side]: type=Ranger, id=Karaul
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:275
+msgid "Celimeor"
+msgstr ""
+
+#. [side]: type=Rogue, id=Varyloryn
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:296
+msgid "Varyloryn"
+msgstr ""
+
+#. [side]: type=Rogue, id=Varyloryn
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:319
+msgid "Remory"
+msgstr ""
+
+#. [side]: type=Rogue, id=Varyloryn
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:327
+msgid "Moortistic"
+msgstr ""
+
+#. [side]: type=Rogue, id=Varyloryn
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:335
+msgid "Kalash"
+msgstr ""
+
+#. [label]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:347
+msgid "Training Arena"
+msgstr ""
+
+#. [label]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:352
+msgid "Elensefar Keep"
+msgstr ""
+
+#. [label]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:357
+msgid "Val Magal"
+msgstr ""
+
+#. [label]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:362
+msgid "Port Road"
+msgstr ""
+
+#. [label]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:367
+msgid "Elen Avenue"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:417
+msgid "Here we are. But it looks like someone else got here first...."
+msgstr ""
+
+#. [message]: speaker=Aryon
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:432
+msgid ""
+"Niryone! It’s been long since I’ve seen you! What brings you here, now? "
+"How’s Niolinde?"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:437
+msgid ""
+"I came to ask your help on an important matter, but it looks as if you have "
+"your hands full already."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:468
+msgid "Dear gods...."
+msgstr ""
+
+#. [message]: speaker=Aryon
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:473
+msgid ""
+"Indeed. It seems a host of outlaws, aided by the thieves’ guild, have "
+"breached the city and are assaulting the main keep! Er, perhaps you can aid "
+"us, and save the chit-chat for later? Probably should shut up myself, then, "
+"that is."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:478
+msgid "(<i>grinning</i>) Agreed. To both counts."
+msgstr ""
+
+#. [message]: speaker=Aryon
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:483
+msgid "Oh, never mind, never mind."
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:507
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:341
+msgid "Defeat all enemy leaders"
+msgstr ""
+
+#. [event]
+#. [event]: (id={_UNIT}) facing $direction}
+#. [event]: id=Rhaen}
+#. [then]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:509
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:321
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:364
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:797
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:319
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:640
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:866
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:201
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:273
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:272
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:343
+msgid "Death of Niryone"
+msgstr ""
+
+#. [event]
+#. [event]: (id={_UNIT}) facing $direction}
+#. [event]: id=Rhaen}
+#. [then]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:510
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:322
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:365
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:798
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:320
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:641
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:867
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:202
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:274
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:273
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:344
+msgid "Death of Elynia"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:511
+msgid "Death of Aryon"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:512
+msgid "Death of Lord Myris"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:514
+msgid "Niryone has a Bind spell that you may find useful"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:515
+msgid "City Areas and Arsenals will heal your units, but provide no income"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:516
+msgid "In this scenario, income is capped at +8 for all sides"
+msgstr ""
+
+#. [unit]: type=Huntsman, id=Eloryn
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:529
+msgid "Eloryn"
+msgstr ""
+
+#. [message]: speaker=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:545
+msgid "A thousand curses, reinforcements!"
+msgstr ""
+
+#. [message]: speaker=Aryon
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:558
+msgid "Oh, this will never do."
+msgstr ""
+
+#. [message]: speaker=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:595
+msgid "They’re breaching the keep!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:609
+msgid ""
+"Pretty fountain. I could rest here, if I weren’t in the middle of a battle. "
+"(<i>sigh</i>)"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:621
+msgid "Ugh... Niryone... good...bye."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:642
+msgid "Without me, Elensefar will fall!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:663
+msgid "Bloody hell, curse you all! My forces will avenge me!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:678
+msgid ""
+"You accursed elves! I... (<i>ugh</i>) will not... be broken... so easily..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:684
+msgid ""
+"You accursed people! I... (<i>ugh</i>) will not... be broken... so easily..."
+msgstr ""
+
+#. [message]: id=Varyloryn
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:698
+msgid "Fall back! This is hopeless!"
+msgstr ""
+
+#. [message]: speaker=Aryon
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:713
+msgid "At last! They’re retreating!"
+msgstr ""
+
+#. [message]: speaker=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:726
+msgid "Finally, they're gone. Thank you for your help."
+msgstr ""
+
+#. [interim_text]
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:804
+msgid "Some time later, the four leaders met at Lord Myris’s keep"
+msgstr ""
+
+#. [message]: speaker=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:835
+msgid ""
+"Again, thank you for your help. I don’t know what prompted such an attack, "
+"but hopefully we can drive them back as needed if they return."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:840
+msgid ""
+"Hopefully. But the main reason I came here was to meet with Aryon. Perhaps I "
+"could talk to him alone momentarily?"
+msgstr ""
+
+#. [message]: speaker=Lord Myris
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:845
+msgid "Certainly, certainly."
+msgstr ""
+
+#. [message]: speaker=Aryon
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:865
+msgid ""
+"You came because of the matter with your apprentice’s friend. I'm afraid I "
+"do not know anything, but I may be able to provide some advice."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:870
+msgid "Do you know where he is?!"
+msgstr ""
+
+#. [message]: speaker=Aryon
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:875
+msgid ""
+"No, but I believe I can tell you who can. Head north, to Eloria, and meet "
+"with the dwarves there. I sense they have some valuable information. And, if "
+"I may... I’d advise haste."
+msgstr ""
+
+#. [message]
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/01_Seer_and_Outlaw.cfg:884
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:988
+msgid "Very well."
+msgstr ""
+
+#. [part]
+#. [scenario]: id=02_Dwarvish_Trail, (type=Vampire Bat) 6 27 3}
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:5
+#: NX-RPG/episode1/utils/storytext.cfg:45
+msgid "Dwarvish Trail"
+msgstr ""
+
+#. [side]
+#. [side]: type=Dwarvish Pathfinder, id=Dalen
+#. [side]: type=Dwarvish Runesmith, id=Anathryis
+#. [side]: type=Dwarvish Steelclad, id=Dulaithol
+#. [side]: type=Dwarvish Steelclad, id=Glamatsil
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:43
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:72
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:92
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:73
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:103
+msgid "team_name^Dwarves"
+msgstr ""
+
+#. [side]: type=Dwarvish Runesmith, id=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:50
+#: NX-RPG/episode1/utils/characters.cfg:66
+msgid "Anathryis"
+msgstr ""
+
+#. [side]: type=Dwarvish Pathfinder, id=Dalen
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:77
+msgid "Dalen"
+msgstr ""
+
+#. [side]: type=Draug, id=Mal Ranchor
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:104
+msgid "team_name^Undead"
+msgstr ""
+
+#. [side]: type=Draug, id=Mal Ranchor
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:109
+msgid "Mal Ranchor"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:136
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:95
+msgid "team_name^Cave Creatures"
+msgstr ""
+
+#. [label]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:154
+msgid "Mineshaft"
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:300
+msgid "I hope Aryon was right, and the dwarves can help us."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:305
+msgid ""
+"So do I, but it has been several years since I met with them, and never this "
+"particular clan."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:310
+msgid "What was the occasion before? Have you met the Lord of Knalga?"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:315
+msgid ""
+"Yes... when I was much younger. Niolinde, Aryon, and I... well, this is a "
+"story for another time. (<i>chuckles</i>)"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:319
+msgid "Enter the caves"
+msgstr ""
+
+#. [scenario]: id=02_Dwarvish_Trail, (type=Vampire Bat) 6 27 3}
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:336
+msgid "Defeat Mal Ranchor"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:358
+msgid ""
+"Mine and return three loads of materials to Dalen ($loads_mined mined, "
+"$loads_delivered delivered)"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:362
+msgid "Fewer than three miners alive ($remaining_miners remaining)"
+msgstr ""
+
+#. [event]
+#. [event]: (id={_UNIT}) facing $direction}
+#. [event]: id=Rhaen}
+#. [then]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:366
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:799
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:321
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:642
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:868
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:203
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:275
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:274
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:345
+msgid "Death of Anathryis"
+msgstr ""
+
+#. [event]
+#. [then]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:367
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:800
+msgid "Death of Dalen"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:371
+msgid ""
+"You can mine materials on any of the twelve hexes immediately adjacent to "
+"the mineshaft"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:372
+msgid ""
+"You will need to protect the miners for one turn while they mine. During "
+"that time, they will not be able to move or attack."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:416
+msgid "What? Elves? In our tunnels? What be yer business here!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:421
+msgid ""
+"We’re here to see the leader of your clan. Aryon of Elensefar told us you "
+"could help."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:426
+msgid "How do we know yer legit?"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:432
+msgid ""
+"Niryone reached into her pack and took out a small token, which she "
+"proceeded to toss to the dwarf."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:437
+msgid ""
+"I see... very well, then. However, the bridge to the main caverns is broken, "
+"and MY BROTHER cannot agree what to do."
+msgstr ""
+
+#. [message]: speaker=Dalen
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:443
+msgid "Hey! Cut it out, brother!"
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:449
+msgid ""
+"(<i>rolls eyes</i>) As I was sayin’, the bridge is broken. There’s a small "
+"mineshaft north-west of here, but we usually avoid it, since a rock slide "
+"killed some of our kin. They say they have returned to slaughter any dwarf "
+"who comes near the place. But perhaps with your help, we can collect enough "
+"materials to fix the bridge. Then you can meet with the council."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:454
+msgid "(<i>sigh</i>) Another task. I guess we must do it...."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:459
+msgid "Indeed."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:464
+msgid "I’ll help ye out."
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:502
+msgid "Valenry"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:504
+msgid "Aigdrsil"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:505
+msgid "Dulalis"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:506
+msgid "Aldrlos"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:508
+msgid "Gerin"
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:520
+msgid ""
+"We’ll need te go to the mineshaft, gather the materials, and return them to "
+"Dalen. And we have only a few miners; the rest were on the other side of the "
+"bridge when it collapsed. Don’t let them die, or it’ll be gods knows how "
+"long before we get the bridge repaired."
+msgstr ""
+
+#. [transient_message]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:546
+msgid ""
+"You can no longer recruit some human units, but may now also recruit "
+"dwarves. Additionally, you gained $temp_gold_amount gold."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:596
+msgid "An old section of wall slides away."
+msgstr ""
+
+#. [message]: speaker=Dalen
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:605
+msgid ""
+"The western tunnel leads directly to the mineshaft. However, I believe there "
+"are some items we may find useful in the northern one."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:625
+msgid "There’s the shaft. Let’s get to work!"
+msgstr ""
+
+#. [message]: speaker=Dalen
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:769
+msgid "That’s enough! Let’s get to repairing that bridge!"
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:774
+msgid "Aye!"
+msgstr ""
+
+#. [then]
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:793
+msgid "Position Anathryis next to Dalen at the bridge to begin repairs"
+msgstr ""
+
+#. [message]: speaker=Dalen
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:906
+msgid "The bridge is repaired!"
+msgstr ""
+
+#. [message]: speaker=Dalen
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:921
+msgid "Indeed it is! Now we can see the—"
+msgstr ""
+
+#. [unit]: id=Lord Agran
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:951
+msgid "Lord Agran"
+msgstr ""
+
+#. [message]: speaker=Lord Agran
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:960
+msgid ""
+"I see you got to the repairs. (<i>chuckles</i>) Well done, well done. And "
+"elves, as Aryon said we should expect. Welcome to our caverns!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:965
+msgid ""
+"Thank you, Lord Agran. It was in fact Aryon who sent us. He said you would "
+"be able to help us with a little... problem."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:971
+msgid ""
+"The two elves related the events that had happened so far while Agran stood "
+"thoughtfully and listened."
+msgstr ""
+
+#. [message]: speaker=Lord Agran
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:980
+msgid "Leave us, please."
+msgstr ""
+
+#. [message]: speaker=Lord Agran
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1006
+msgid ""
+"I know of the situation you speak of. Though it hasn’t affected us directly, "
+"or the other dwarves, as far as I can tell, we have some information. I "
+"don’t know who’s behind it, but our scouts reported that a human caravan is "
+"traveling north, carrying cargo unknown. It might be useful to you."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1011
+msgid "Rhyan could be there!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1016
+msgid ""
+"(<i>puzzled</i>) Perhaps... perhaps. But it’s our only lead, so we well "
+"pursue it. Thank you for your help."
+msgstr ""
+
+#. [message]: speaker=Lord Agran
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1021
+msgid ""
+"It’s no trouble. The least I could do for ye for yer help in repairing the "
+"bridge."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1026
+msgid "I’d like to go with you elves, if I may. I owe them for their help."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1031
+msgid "Your help would be welcome, Anathryis."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1055
+msgid ""
+"Blast it! It seems the undead do roam here after all! We should give them "
+"eternal rest, if we can."
+msgstr ""
+
+#. [message]: speaker=Mal Ranchor
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1079
+msgid ""
+"So, the dwarves finally venture to see their handiwork. And they bring the "
+"wose-born with them? Hah!"
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1091
+msgid "Ranchor... We meet again."
+msgstr ""
+
+#. [message]: speaker=Mal Ranchor
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1096
+msgid ""
+"YOU?!! YOU DARE COME HERE! You, who ran as I called for help! You accursed "
+"dwarf! You left us to die! Die, beneath the crushing blackness of ash and "
+"rock!"
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1105
+msgid ""
+"I’m sorry, Ranchor, but we could not help... And now you deserve a peace you "
+"have been denied."
+msgstr ""
+
+#. [pick_up_item]: id=spear # wmllint: ignore
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1124
+msgid "Spear"
+msgstr ""
+
+#. [pick_up_item]: id=spear # wmllint: ignore
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1126
+msgid "New attack: Spear 6 - 3 Melee Pierce"
+msgstr ""
+
+#. [pick_up_item]: id=spellgem_mindcontrol # wmllint: ignore
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1172
+msgid "Spellgem"
+msgstr ""
+
+#. [pick_up_item]: id=spellgem_mindcontrol # wmllint: ignore
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1174
+msgid ""
+"This gem will allow a unit to learn the Mind Control spell, which allows its "
+"caster to gain control of a non-loyal or non-leader enemy unit for one turn."
+msgstr ""
+
+#. [usable_by]: id=Niryone,Elynia
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1180
+msgid "Only hero units learned in magic may learn this spell."
+msgstr ""
+
+#. [learn_spell]: id=mindcontrol # wmllint: ignore
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1186
+msgid "Mind Control"
+msgstr ""
+
+#. [learn_spell]: id=mindcontrol # wmllint: ignore
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1188
+msgid ""
+"Allow its caster to gain control of a non-loyal or non-leader enemy unit for "
+"one turn."
+msgstr ""
+
+#. [pick_up_item]: id=defring # wmllint: ignore
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1264
+msgid "Ring of Defense"
+msgstr ""
+
+#. [pick_up_item]: id=defring # wmllint: ignore
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1266
+msgid "This ring will give its bearer +5% defense on all terrains."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1302
+msgid ""
+"We no longer have enough miners to gather materials! Now we’ll rot here!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1318
+msgid "No! You accursed elves, look at what trusting you has done!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1330
+msgid "This was a mistake...."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1344
+msgid "(<i>ugh</i>) Brother, help... me...."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1356
+msgid "He’s dead, and now the bridge will never be repaired!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1370
+msgid ""
+"But... my revenge is not complete! You have not paid the price for your "
+"betrayal!"
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1375
+msgid "Go now, and be at peace. I don’t hold you to blame. Please, forgive me."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1384
+msgid "I... thank you... brother...."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1413
+msgid "The draug seems to have dropped something."
+msgstr ""
+
+#. [message]: speaker=Dalen
+#: NX-RPG/episode1/scenarios/02_Dwarvish_Trail.cfg:1436
+msgid "Curses! A cave-in! Now how will we get to the bridge!?"
+msgstr ""
+
+#. [part]
+#. [scenario]: id=03_Gathering_Storm
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:5
+#: NX-RPG/episode1/utils/storytext.cfg:55
+msgid "Gathering Storm"
+msgstr ""
+
+#. [side]: type=Grand Marshal, id=Rhaen
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:67
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:41
+msgid "team_name^Escort"
+msgstr ""
+
+#. [side]: type=Grand Marshal, id=Rhaen
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:71
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:45
+msgid "Rhaen"
+msgstr ""
+
+#. [side]: type=Troll Warrior, id=Barag
+#. [side]: type=Troll Warrior, id=Grag
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:108
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:77
+msgid "team_name^Trolls"
+msgstr ""
+
+#. [side]: type=Troll Warrior, id=Grag
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:112
+msgid "Grag"
+msgstr ""
+
+#. [side]
+#. [side]: type=Orcish Sovereign, id=Rarok
+#. [side]: type=Spectre, id=Delenethor
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:133
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:158
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:125
+msgid "team_name^Enemies"
+msgstr ""
+
+#. [side]: type=Spectre, id=Delenethor
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:162
+msgid "Delenethor"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:220
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:225
+msgid "You cannot even hope to capture me!"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:221
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:226
+msgid "You... keep... pestering me!"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:222
+msgid "Now this isn’t exactly what I planned, was it..."
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:223
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:227
+msgid "Screw this mission! I’m looking out for myself."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:287
+msgid ""
+"As long as they didn’t change their course, the caravan should be traveling "
+"north by this road. Hopefully we can cut them off before they get too far."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:292
+msgid "Alright. It’s the best lead we have so far. Let’s get to it."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:297
+msgid "What happens if we don’t catch them?"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:302
+msgid ""
+"I don’t know... Something big is going on here, Aryon and the dwarves’ "
+"advice surely point to that. If we let this lead slip through our fingers, "
+"I’m not sure we will be able to discover what it is in time."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:307
+msgid "Then we had better, if only for Rhyan’s sake..."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:312
+msgid ""
+"(<i>smiles</i>) Let’s get moving, then. We’ll need to use a binding spell on "
+"the messenger; I doubt he’ll talk any other way."
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:316
+msgid "Cut off the messenger and the transport"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:318
+msgid "Transport reaches the top edge of the map)"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:325
+msgid "Use Niryone’s binding spell on the messenger to stop him"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:343
+msgid "The hands of the signpost are worn down to unreadability."
+msgstr ""
+
+#. [message]: speaker=Rhaldir
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:377
+msgid "There! Get them!"
+msgstr ""
+
+#. [message]: speaker=Delenethor
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:395
+msgid ""
+"So, we meet again. After you so conveniently left my brother to DIE! Now you "
+"will pay! You will all pay!"
+msgstr ""
+
+#. [message]: speaker=Rhaldir
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:410
+msgid "Delenethor... How many times will you continue to bother me? Enough!"
+msgstr ""
+
+#. [message]: speaker=Delenethor
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:415
+msgid ""
+"I will not rest until your blood stains the water of the great river red as "
+"the setting sun!"
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:420
+msgid "Dammit, more distractions..."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:425
+msgid "Well, my axe could use a little practice, anyway..."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:430
+msgid ""
+"By the Lords of Light, this is madness.... Why is it that we keep running "
+"into those who are dead, and those who let them die?"
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:459
+msgid ""
+"It is no use, fools! I have protected both myself and the transport with a "
+"magical shield the likes of which you shall not pierce with your mundane "
+"weaponry!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:468
+msgid "(<i>muttering</i>) But you can still be bound...."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:486
+msgid "Why smash smash not working!"
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:527
+msgid "(<i>surprised</i>) AH! Well, well, well, this will be fun."
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:618
+msgid "In here, this looks good."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:629
+msgid "We need to go after him!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:634
+msgid ""
+"Wait, let’s examine the transport first. With him gone, we should be able to "
+"get at it, now!"
+msgstr ""
+
+#. [event]: id=Rhaen}
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:638
+msgid "Attack the now-unprotected transport"
+msgstr ""
+
+#. [message]: speaker=Grag
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:670
+msgid "An attack? No, no, this will never do..."
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:712
+msgid "Foolish elves. Forward!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:717
+msgid "No! They have escaped"
+msgstr ""
+
+#. [message]: speaker=Delenethor
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:734
+msgid ""
+"So, the coward flees! No matter, I will drag you all into undeath with me "
+"instead!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:783
+msgid "No! We need the transport! Now we’ll never get anything out of him."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:788
+msgid "Gr.... be quick about it...."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:807
+msgid "What that—?! It’s Lord Myris...."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:812
+msgid "Not... Rhyan? So the Lord in Elensefar is... fake!?"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:817
+msgid ""
+"It appears so. This is the second individual whom we have found who had an "
+"impersonator in his place. We need to capture that messenger, now! Let’s go! "
+"Anathryis, can you send a few of your fighters with Lord Myris, take him... "
+"somewhere. Just try not to let word reach Elensefar. "
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:822
+msgid "Aye, I will."
+msgstr ""
+
+#. [message]: speaker=Rhaldir
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:827
+msgid ""
+"(<i>snicker</i>) Ah, you optimistic elves.... Some day it will be the death "
+"of you. Some day...."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:854
+msgid "Where did that creep go?"
+msgstr ""
+
+#. [event]: (id={_UNIT}) facing $direction}
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:864
+msgid "Pursue Rhaen with Niryone"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:884
+msgid "Nooo, the sun sets on Grag!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:896
+msgid "This is not over, not by far."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/03_Gathering_Storm.cfg:922
+msgid "The cold.... Damn the cold...."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:5
+#: NX-RPG/episode1/utils/storytext.cfg:64
+msgid "Pursuit"
+msgstr ""
+
+#. [side]: type=Troll Warrior, id=Barag
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:81
+msgid "Barag"
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:178
+msgid "There he goes. After him!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:183
+msgid ""
+"We must be careful. These caverns haven’t been used for a while, who knows "
+"what could be in here."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:188
+msgid "Probably bats, leeches, scorpions, the whole lot."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:193
+msgid "Great...."
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:199
+msgid "Pursue Rhaen"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:220
+msgid "Bloody trolls! They’re in here too!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:226
+msgid "We likes elvses! Smash nice! Heehee."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:257
+msgid ""
+"There’s nowhere else to go. Just give us the answers we want and you can go."
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:262
+msgid ""
+"Never! By the darkest arts, your world will fall and you will be able to do "
+"naught about it!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:267
+msgid "Then you leave us no choice."
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:271
+msgid "Defeat Rhaen"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:277
+msgid "Only Niryone will be able to hit Rhaen"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:318
+msgid ""
+"We cannot touch him! He doesn’t seem to have removed that magic shield, but "
+"it’s weaker now..."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:323
+msgid "I will have to do this."
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:328
+msgid "(<i>laughs maniacally</i>)"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:356
+msgid "Give up and TALK!"
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:362
+msgid "Muahahah, never!"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:428
+msgid "Tell me NOW. Who sent you and your transport, and where were you going?"
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:433
+msgid ""
+"You will never, ever stop him. He holds more power within his grasp than you "
+"or your puny civilization could ever comprehend!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:439
+msgid ""
+"The elf shot another tendril of energy from her staff, blasting the human’s "
+"armor with great force."
+msgstr ""
+
+#. [message]: speaker=Rhaen
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:445
+msgid "(<i>AAAAHHHHHHHHHH!!!</i>)"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:451
+msgid ""
+"The human whispered a few words as the two elves listened. Then Niryone "
+"nodded, and waved her staff. A bright white light grew from its tip, washing "
+"the human in a searing radiance. When it cleared, their captive was gone."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:466
+msgid "We must meet with the Ka’lian. Now."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/04_Pursuit.cfg:480
+msgid "Nasty elvses kill Barag. <i>Ugh....</i>"
+msgstr ""
+
+#. [part]
+#. [scenario]: id=05_01_Ambush_in_Wesmere
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:5
+#: NX-RPG/episode1/utils/storytext.cfg:80
+msgid "Ambush in Wesmere"
+msgstr ""
+
+#. [side]: type=Elvish Marshal, id=Earin
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:40
+msgid "team_name^Elves"
+msgstr ""
+
+#. [side]: type=Elvish Marshal, id=Earin
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:45
+msgid "Earin"
+msgstr ""
+
+#. [side]: type=Orcish Sovereign, id=Vagrur
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:60
+msgid "team_name^Orcs"
+msgstr ""
+
+#. [side]: type=Orcish Sovereign, id=Vagrur
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:65
+msgid "Vagrur"
+msgstr ""
+
+#. [side]: type=Northguard Nightshaft, id=Feraylore
+#. [side]: type=Northguard Warrior
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:85
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:117
+msgid "team_name^Northguard"
+msgstr ""
+
+#. [side]: type=Northguard Nightshaft, id=Feraylore
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:90
+msgid "Feraylore"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:146
+msgid "team_name^Direwolves"
+msgstr ""
+
+#. [label]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:169
+msgid "Elvish Outpost"
+msgstr ""
+
+#. [message]: speaker=Vagrur
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:215
+msgid ""
+"Filthy elves.... Leave us alone! More of you wose-born idiots spring from "
+"the trees every minute! We want nothing to do with you!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:224
+msgid "Orcs?! In Wesmere! If I were not in a hurry, we would deal with you...."
+msgstr ""
+
+#. [message]: speaker=Vagrur
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:229
+msgid ""
+"We swear, we shall not bother you, as long as you keep your pretty swords "
+"away from us!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:238
+msgid "...We will hold you to that."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:243
+msgid "(<i>muttering</i>) I don’t trust this at all."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:248
+msgid ""
+"Well, in any case, we’re almost there. Just a quick jaunt through the woods. "
+"Ah, the sight of the earth and trees!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:253
+msgid ""
+"I hope all goes well... I don’t trust another ‘incident’ not to happen, "
+"either from those masked freaks, or these orcs. Let’s get to the south "
+"eastern outpost; it’s only a short way away. And Elynia.... how are you "
+"holding up?"
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:258
+msgid "Pretty well. Let’s move, shall we?"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:270
+msgid "Reach the Elvish outpost with Niryone"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:278
+msgid "HINT: the orcs may prove useful later, if you honor your agreement"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:337
+msgid "Defeat all the Direwolves ($remaining_wolves remaining)"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:339
+msgid "Flee to the signpost in the northwest (with any unit)"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:346
+msgid "Death of Earin"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:350
+msgid "You might find it advantageous not to flee"
+msgstr ""
+
+#. [message]: speaker=Earin
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:371
+msgid "Ah, Niryone! It has been a while—"
+msgstr ""
+
+#. [message]: speaker=Earin
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:408
+msgid "We’re under attack!"
+msgstr ""
+
+#. [message]: speaker=Feraylore
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:413
+msgid "You don’t say, puny elf."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:418
+msgid "You people <i>again</i>?"
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:423
+msgid "Who <i>are</i> you! You keep following us!"
+msgstr ""
+
+#. [message]: speaker=Vaenyn
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:428
+msgid "Well, well, well, little elves. How naive you are."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:433
+msgid ""
+"I will personally smash you and your fancy headgear into the dirt and hurl "
+"it so far it lands on the northern ice plains... ATTACK!"
+msgstr ""
+
+#. [message]: speaker=Vagrur
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:442
+msgid ""
+"You kept your word, surprisingly enough. In return, we will assist you "
+"against these invaders!"
+msgstr ""
+
+#. [message]: speaker=Earin
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:447
+msgid "Orcs, fighting with elves?! The Ka’lian will have our heads!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:452
+msgid ""
+"You forget, Earin, I too am a member of the Ka’lian, and I say we will "
+"likely die here without their help!"
+msgstr ""
+
+#. [message]: speaker=Vagrur
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:463
+msgid ""
+"You broke your word, you lying scum, and now you will get no help from us!"
+msgstr ""
+
+#. [transient_message]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:528
+msgid "You gained $temp_gold_amount gold."
+msgstr ""
+
+#. [message]: speaker=Earin
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:547
+msgid "Who are these creatures..."
+msgstr ""
+
+#. [message]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:555
+msgid ""
+"Humans, by the looks of it, but not of a sort we have run into before..."
+msgstr ""
+
+#. [message]: speaker=Earin
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:560
+msgid "No matter, we cannot let them sack Wesmere!"
+msgstr ""
+
+#. [message]: speaker=Vagrur
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:578
+msgid ""
+"We asked to be left alone, and you would not. Now we shall kill you! Attack!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:593
+msgid "They’re too many! We must flee!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:609
+msgid "No... I... cannot...."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:621
+msgid "Without him, we cannot hold off the invaders! It is lost..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:636
+msgid "Gablahgaghag..."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:641
+msgid "Excuse me?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:653
+msgid "I won’t go so easily as that..."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:674
+msgid "Blast it, she’s escaped!"
+msgstr ""
+
+#. [message]
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:683
+msgid "Their leaders are gone, but these wolves still plague us!"
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:698
+msgid ""
+"Meanwhile, I found something interesting in their encampment: plans for this "
+"very interesting armor their wolves seem to wear! Oh, I can have fun with "
+"this!"
+msgstr ""
+
+#. [message]: speaker=Earin
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:703
+msgid "How... nice."
+msgstr ""
+
+#. [message]: speaker=Anathryis
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:718
+msgid "(<i>gleefully</i>) Chop chop chop."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:744
+msgid "In any case, we must make it to the Ka’lian, now!"
+msgstr ""
+
+#. [message]: speaker=Vagrur
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:771
+msgid ""
+"You helped us, elves, Surprising of your kind. As repayment, some of my more "
+"experienced troops will come with you. And, if the day may come when you "
+"find our help is needed, do not hesitate to ask."
+msgstr ""
+
+#. [message]: speaker=Earin
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:776
+msgid "But my lady—"
+msgstr ""
+
+#. [message]: speaker=Niolinde
+#: NX-RPG/episode1/scenarios/05_01_Ambush_in_Wesmere.cfg:781
+msgid "Thank you, Vagrur. It is appreciated."
+msgstr ""
+
+#. [scenario]: id=05_02_Change_of_Plans
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:5
+msgid "Change of Plans"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:36
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:51
+msgid "team_name^Council"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:66
+msgid "team_name^Mizenwyn"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:90
+msgid ""
+"Greetings Niolinde, Elorandas. Glad you could make it on such short notice."
+msgstr ""
+
+#. [message]: speaker=Niolinde
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:95
+msgid ""
+"And what would be so important that you have to call an emergency meeting, "
+"now of all times, especially after you’ve been away for months with that "
+"apprentice of yours?"
+msgstr ""
+
+#. [message]: speaker=Elorandas
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:100
+msgid "Quiet, Niolinde, I’m sure she had a reason."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:105
+msgid ""
+"Indeed. I have discovered something... troubling. We intercepted a human on "
+"the road south of the Ford, heading for an location in the Heart Mountains. "
+"He was accompanied by a caravan carrying an unconscious Lord Myris. An "
+"individual we had previously met, conscious and well at a time in which the "
+"human’s caravan would already have had to be en route. And previously... "
+"another human, a traveling companion of ours, was replaced by a undead "
+"creature. I destroyed it, but the real person is yet to be found."
+msgstr ""
+
+#. [message]: speaker=Niolinde
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:110
+msgid ""
+"So one human turns into a foul spawn of black magic and another ends up an "
+"unconscious mess. And you come running to <i>us</i>? Surely you can deal "
+"with such matters yourself, Niryone."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:118
+msgid ""
+"(<i>angrily</i>) It’s more than that! The human we captured had powers of "
+"dark magic. Not unusual, not noteworthy. He revealed his origin to be "
+"Sharaford, near Lake Aelin. Now, a human from a border town, transporting an "
+"unconscious person of importance while an impersonator holds his place, in "
+"the very town where we discovered another person, this time traveling with "
+"our group, had <b>also</b> been impersonated! And to add to the fact that we "
+"were ambushed by masked men and a pack of gigantic wolves near one of the "
+"south-eastern outposts and had to abandon it, tell me that is not suspicious!"
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:124
+msgid ""
+"(<i>angrily</i>) It’s more than that! The human we captured had powers of "
+"dark magic. Not unusual, not noteworthy. He revealed his origin to be "
+"Sharaford, near Lake Aelin. Now, a human from a border town, transporting an "
+"unconscious person of importance while an impersonator holds his place, in "
+"the very town where we discovered another person, this time traveling with "
+"our group, had <b>also</b> been impersonated! And to add to the fact that we "
+"were ambushed by masked men and a pack of gigantic wolves near one of the "
+"south-eastern outposts and were barely able to drive them off, tell me that "
+"is not suspicious!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:132
+msgid "There was silence for a few seconds."
+msgstr ""
+
+#. [message]: speaker=Elorandas
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:141
+msgid ""
+"I agree, something is going on. But you cannot tell us who is behind it, "
+"and, to me at least, it doesn’t seem to be any threat to us elves, and we "
+"have our hands full with the necromancer and his thugs who are attacking and "
+"burning southern Aethenwood."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:146
+msgid "Niolinde, what do you think?"
+msgstr ""
+
+#. [message]: speaker=Niolinde
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:151
+msgid ""
+"I think you’re wasting your time. It is probably some human political "
+"intrigue, in which we have absolutely no interest. So if you want to waste "
+"time “<i>investigating</i>”, go ahead. Just don't expect help until it "
+"becomes a real issue to us."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:156
+msgid "(<i>grits teeth</i>) Oh shut up, Niolinde."
+msgstr ""
+
+#. [interim_text]
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:219
+msgid "Meanwhile..."
+msgstr ""
+
+#. [message]: speaker=Vaenyn
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:234
+msgid ""
+"We have some disturbing news. An elf by the name Niryone has been meddling "
+"in our affairs. She has already freed Lord Myris and destroyed her "
+"apprentice’s friend’s duplicate. I think... I think she may be close to "
+"discovering everything. Our sources say she is already traveling toward the "
+"Heart Mountains."
+msgstr ""
+
+#. [message]: speaker=Mizenwyn
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:239
+msgid "Hm... now that won't do, will it...."
+msgstr ""
+
+#. [message]: speaker=Vaenyn
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:244
+msgid "What do you propose?"
+msgstr ""
+
+#. [message]: speaker=Mizenwyn
+#: NX-RPG/episode1/scenarios/05_02_Change_of_Plans.cfg:249
+msgid "Leave it to me. I think it’s time for a little change of plans...."
+msgstr ""
+
+#. [scenario]: id=06_Awakening_part_1
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:7
+msgid "Awakening — Part 1"
+msgstr ""
+
+#. [unit]: id=Galthur, type=Dwarvish Fighter
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:43
+msgid "Galthur"
+msgstr ""
+
+#. [side]
+#. [side]: type=Deathblade, id=Revekel
+#. [side]: type=Saurian Flanker, id=Yerar
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:59
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:92
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:124
+msgid "team_name^Guards"
+msgstr ""
+
+#. [side]: type=Deathblade, id=Revekel
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:63
+msgid "Revekel"
+msgstr ""
+
+#. [side]: type=Saurian Flanker, id=Yerar
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:96
+msgid "Yerar"
+msgstr ""
+
+#. [side]: type=Saurian Flanker, id=Yerar
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:108
+msgid "Bar"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:226
+msgid ""
+"The aged dwarf stood looking down at the prone figure on the floor with old, "
+"kindly eyes. As he watched, the man stirred groggily and sat up."
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:231
+msgid "So, you wake... at last."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:236
+msgid "Where... where am I? What happened?"
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:241
+msgid ""
+"I don’t know. They threw you in here a while ago, and you nae have woken "
+"since. I am trapped, as are you."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:246
+msgid ""
+"I can’t remember.... The bandits.... The town. Yes, there was a town... I... "
+"Elynia...?"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:255
+msgid "How did I get here...?"
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:260
+msgid ""
+"The runesmiths of my kind are those who possess knowledge in the magical "
+"arts. I, however, am naught but a lonely warrior, captured and thrown down "
+"here to rot beneath the earth, ever able to touch the rock but never able to "
+"leave. I could not tell you."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:265
+msgid "But...."
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:271
+msgid ""
+"If ye want to escape this foul cell, you best be waitin’ for the guards to "
+"return. If they ever do...."
+msgstr ""
+
+#. [message]: speaker=Galthur
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:280
+msgid ""
+"Take this. I saved it, in case I would ever have a chance to use it. But I "
+"am withered, now. You be havin’ more use of it than I. And if you do get "
+"out, do me a favor. See if Galamor is still alive in here, somewhere. I know "
+"not what became of him..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:286
+msgid ""
+"The dwarf then took a dusty vial from a pouch by his side, and approached "
+"the human."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:301
+msgid "Thank... you. And I will. But for now... I... will... rest."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:307
+msgid "For a moment, the newcomer swayed, then fell onto the floor in a faint."
+msgstr ""
+
+#. [interim_text]
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:334
+msgid "Time passes"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:352
+msgid ""
+"The human opened his eyes and stood up. He felt the vial the dwarf had given "
+"him in his pocket, but when he turned to thank him, he found he was alone."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:361
+msgid "...Weird...."
+msgstr ""
+
+#. [message]: speaker=guard1
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:408
+msgid "Come with us!"
+msgstr ""
+
+#. [message]: speaker=guard2
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:413
+msgid "(<i>cackle</i>)"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:418
+msgid "Come and get me."
+msgstr ""
+
+#. [event]: id=Galthur 30 27}
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:424
+msgid "Defeat the guards"
+msgstr ""
+
+#. [event]
+#. [event]: id=Galthur 30 27}
+#. [scenario]: id=06_Awakening_part_1
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:426
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:464
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:619
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:317
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:393
+msgid "Death of Rhyan"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:449
+msgid ""
+"Blast it, the exit gates are sealed! Not that I expected them to be sitting "
+"wide open. Heh. Perhaps one of the guards has the key. And in any case, I "
+"need to find Galamor. There’s that...."
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:457
+msgid "Find a way to open the exit gates"
+msgstr ""
+
+#. [event]
+#. [scenario]: id=06_Awakening_part_1
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:458
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:613
+msgid "Search for Galamor"
+msgstr ""
+
+#. [event]
+#. [scenario]: id=06_Awakening_part_1
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:465
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:620
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:318
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:394
+msgid "Death of Galamor"
+msgstr ""
+
+#. [pick_up_item]: id=Galthur_potion # wmllint: ignore
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:487
+msgid "Holy Water"
+msgstr ""
+
+#. [pick_up_item]: id=Galthur_potion # wmllint: ignore
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:489
+msgid ""
+"This water will give all weapons arcane damage until the end of the current "
+"scenario."
+msgstr ""
+
+#. [pick_up_item]: id=regen_amulet # wmllint: ignore
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:522
+msgid "Amulet of Regeneration"
+msgstr ""
+
+#. [pick_up_item]: id=regen_amulet # wmllint: ignore
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:524
+msgid "This amulet will allow its wearer to heal 8 HP per turn."
+msgstr ""
+
+#. [pick_up_item]: id=A_key # wmllint: ignore
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:579
+msgid "Key"
+msgstr ""
+
+#. [pick_up_item]: id=A_key # wmllint: ignore
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:581
+msgid "An old metal key. You found it on the body of $guy_with_key.name|."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:608
+msgid "A key! Perhaps this goes to the exit gates."
+msgstr ""
+
+#. [scenario]: id=06_Awakening_part_1
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:612
+msgid "Open the exit gates"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:646
+msgid "I still need to find Galamor."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:686
+msgid ""
+"And who might <i>you</i> be? Another fiendish abomination here to taunt me, "
+"you accursed human scum."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:691
+msgid ""
+"No, I’m not one of them. Who are they even, exactly. I still don’t know why "
+"I’m here. But you, are you Galamor?"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:701
+msgid ""
+"I see. So yer not one of them, then... Aye, I am him. As for why yer here, "
+"wish I knew that meself. But for now, can we just get out of of this damn "
+"dungeon?"
+msgstr ""
+
+#. [message]: speaker=Yerar
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:723
+msgid "Ssssss... hehe.... Where do you think you’re going?"
+msgstr ""
+
+#. [message]: speaker=Bar
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:728
+msgid "Hehehe boss ah we gonna bash dem into de floor?"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:733
+msgid "Who are you and what do you want with us!"
+msgstr ""
+
+#. [message]: speaker=Yerar
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:738
+msgid ""
+"None of your business. Now, capture them and return them to their cells! And "
+"make sure they can’t escape this time. He would be most displeased if his "
+"prisoners were not present and accounted for."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:743
+msgid "And just who might “he” be?"
+msgstr ""
+
+#. [message]: speaker=Yerar
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:748
+msgid "(<i>smiling evilly</i>) You’ll find out soon enough. "
+msgstr ""
+
+#. [message]: speaker=Bar
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:753
+msgid "Hehehe... this gonna be fun! It’s ogre now!"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:768
+msgid ""
+"Oh great... giant rats. Just what we need on top of everything else. I hope "
+"they don’t—"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:773
+msgid "(<i>hisss</i>)"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:778
+msgid "—bite...."
+msgstr ""
+
+#. [message]: speaker=$remaining_guard_id
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:805
+msgid "This will require reinforcements."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:826
+msgid "Seems he dropped something."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:851
+msgid ""
+"What’s the point? I am already dead. I cannot die again, but unfortunately "
+"for you, <i>you</i> can."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:864
+msgid ""
+"I fall, but death will always follow you — you will never escape its cold "
+"grasp!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:881
+msgid "Your enemy seems to have dropped something."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/06_Awakening_part_1.cfg:908
+msgid "Let’s be moving out."
+msgstr ""
+
+#. [part]
+#. [scenario]: id=07_Fleeing_the_Swarm, (type=Dread Bat,Blood Bat) 5 1 1}, (type=Dread Bat,Blood Bat) 5 21 1}, (type=Dread Bat,Blood Bat) 5 34 14}, (type=Dread Bat,Blood Bat) 5 41 10}
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:5
+#: NX-RPG/episode1/utils/storytext.cfg:104
+msgid "Fleeing the Swarm"
+msgstr ""
+
+#. [side]: type=Dwarvish Steelclad, id=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:69
+msgid "Glamatsil"
+msgstr ""
+
+#. [side]: type=Dwarvish Steelclad, id=Dulaithol
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:99
+msgid "Dulaithol"
+msgstr ""
+
+#. [side]: type=Orcish Sovereign, id=Rarok
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:122
+msgid "Rarok"
+msgstr ""
+
+#. [side]
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:153
+msgid "team_name^Swarm"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:281
+msgid "Finally! The wind on my face. Finally out of the bloody prison cave."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:290
+msgid "I thought dwarves preferred caves?"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:295
+msgid ""
+"Er... We do! Yes, we do. I, just...er. Never mind! It's not 'yer business, "
+"human."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:304
+msgid "...Alright. Let's just keep moving."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:309
+msgid ""
+"Good idea. If I recognize this pass correctly, we should be on the Northern "
+"edge of the Heart Mountains. It's not an easy pass to cross. It's usually "
+"filled with bats."
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:315
+msgid "Explore"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:322
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:397
+msgid "Beware bats"
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:342
+msgid "Halt! Who goes there? Friend or foe?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:347
+msgid ""
+"Friend, if you are. We're heading toward the Lintanir Plain. Can you help us?"
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:352
+msgid ""
+"Good. Yes, I can help, though I also need help myself. I’ve been cut off "
+"from our main force, and I need to get back — I have news. Who are you, by "
+"the way? We don’t usually see travelers up this way."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:358
+msgid "The story was quickly told."
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:363
+msgid ""
+"Interesting... Dulaithol will be interested to hear this, but we must hurry."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:369
+msgid "Rhyan and Galamor conferred a moment, before deciding to assist."
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:374
+msgid ""
+"Good. Now, we need to get to reach the lower section or the cave in the "
+"adjacent ridge, but some orcs have taken over the gorge and northern cave in "
+"between. If we can clear it of orcs, we'll be safe. But first, I should "
+"recruit a little help..."
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:384
+msgid "Help Glamatsil get back to the main force"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:385
+msgid "Defeat the orcs"
+msgstr ""
+
+#. [event]
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:395
+msgid "Death of Glamatsil"
+msgstr ""
+
+#. [message]: speaker=Rarok
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:413
+msgid "Hah! Hello, dwarf. I’ve been waiting for you — what is this?"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:419
+msgid "The orc eyed the two travelers suspiciously."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:424
+msgid "Yes...?"
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:429
+msgid "You. Out of the way. Now! Or feel the might of my axe!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:435
+msgid "The orc turned to look at Glamatsil."
+msgstr ""
+
+#. [message]: speaker=Rarok
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:440
+msgid ""
+"And why, when we've driven you into the caves? All those behind us can do is "
+"flee, and all you can do is die — you'll make nice food for our wolves. The "
+"news you carry will never reach your allies, and they will abandon you. "
+"These mountains will be ours."
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:445
+msgid ""
+"(<i>narrows eyes</i>) That which lies in the depths below will never be "
+"yours, not as long a single dwarf yet stands!"
+msgstr ""
+
+#. [message]: speaker=Rarok
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:450
+msgid "Then stand no longer. Attack!"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:473
+msgid "Bats...just great."
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:478
+msgid ""
+"Aye. Recently, we've seen them coming out of their caves even during the "
+"day, bombarding us and eating anything they can fine. They've become a "
+"virtual swarm!"
+msgstr ""
+
+#. [message]: speaker=Dulaithol
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:499
+msgid "Glamatsil! You made it!"
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:504
+msgid ""
+"Aye. And I bring grave news. The orcs and the faceless ones have massed to "
+"the north, preparing for an assault."
+msgstr ""
+
+#. [message]: speaker=Dulaithol
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:509
+msgid ""
+"Grave news indeed. But tell me, who are these travelers whom you bring? A "
+"human and one of our kinsmen, I can see..."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:514
+msgid "We don’t know why which means we came here, but it was not by our will."
+msgstr ""
+
+#. [message]: speaker=Dulaithol
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:519
+msgid "Aye?"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:524
+msgid "Let me speak, for these be my... friends"
+msgstr ""
+
+#. [message]: speaker=Dulaithol
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:529
+msgid ""
+"As you say, but tell me something, dwarf... Where were you these long years?"
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:535
+msgid "You know well why I abandoned your lot, you pretentious tree-hugger!"
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:540
+msgid "Why, you —"
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:545
+msgid ""
+"It is no matter now. I suggest we follow whatever plan you had set out, then "
+"we talk."
+msgstr ""
+
+#. [message]: speaker=Dulaithol
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:550
+msgid ""
+"The human is right. We break camp, and travel north at dawn. You two can "
+"travel with us for now. But you, dwarf... I'll be watching you."
+msgstr ""
+
+#. [message]: speaker=Galamor
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:555
+msgid "(<i>grits teeth</i>)"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:569
+msgid "Ack...(<i>gasp</i>)...No...I must...deliver...the...message..."
+msgstr ""
+
+#. [message]
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:581
+msgid "He had a message to deliver...now we will never know its contents."
+msgstr ""
+
+#. [message]
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:586
+msgid ""
+"Even worse, the other dwarves will kill us when they spot us! We have lost..."
+msgstr ""
+
+#. [message]: speaker=Glamatsil
+#: NX-RPG/episode1/scenarios/07_Fleeing_the_Swarm.cfg:637
+msgid "Well, here we go. For the dwarves!"
+msgstr ""
+
+#. [part]
+#. [scenario]: id=08_01_Reunion
+#: NX-RPG/episode1/scenarios/08_01_Reunion.cfg:5
+#: NX-RPG/episode1/utils/storytext.cfg:113
+msgid "Reunion"
+msgstr ""
+
+#: NX-RPG/episode1/utils/characters.cfg:5
+msgid "Elynia"
+msgstr ""
+
+#: NX-RPG/episode1/utils/characters.cfg:51
+msgid "Galamor"
+msgstr ""
+
+#: NX-RPG/episode1/utils/characters.cfg:81
+msgid "Vaenyn"
+msgstr ""
+
+#: NX-RPG/episode1/utils/characters.cfg:94
+msgid "Rhaldir"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/utils/deaths.cfg:24
+msgid "Good bye... I go to join the great figures of times past..."
+msgstr ""
+
+#. [message]: speaker=Niryone
+#: NX-RPG/episode1/utils/deaths.cfg:30
+msgid "No! Elynia! No!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/utils/deaths.cfg:40
+msgid "Find out...what is happening...for me."
+msgstr ""
+
+#. [message]: speaker=Elynia
+#: NX-RPG/episode1/utils/deaths.cfg:46
+msgid "I cannot continue without her."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/utils/deaths.cfg:56
+msgid "I was a fool...to follow you..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/utils/deaths.cfg:66
+msgid "I...have failed..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: NX-RPG/episode1/utils/deaths.cfg:76
+msgid "Augh... See what I got by following you..."
+msgstr ""
+
+#. [message]: speaker=Rhyan
+#: NX-RPG/episode1/utils/deaths.cfg:82
+msgid "If I cannot even keep him alive, what would be said for me?"
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:19
+msgid ""
+"Around 1046 YW, many events which would later lead to the consolidation of "
+"Wesnoth as the dominant empire on the Great Continent of Irdya began to take "
+"place. For many years after the defeat of human and elvish forces at the "
+"hands of Black-Eye Kapou’e’, the Great Continent rested beneath a blanket of "
+"relative tranquility. Excepting the occasional skirmish, the elvish, human, "
+"dwarvish, and orcish kingdoms were at peace. But it was not to last. Though "
+"none then knew, this was the beginning of the final age of Wesnoth. Its "
+"domain would expand one last time, before its definitive end in the fiery "
+"cataclysm that would mark the dawn of the Golden Age of Irdya."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:23
+msgid ""
+"In 1063 YW, a new king, Konrad III, acceded to the throne of Wesnoth. For "
+"several years, the peace that had endured for the past century has been "
+"shattering. Merchant caravans were hijacked, orcs and dwarves battled, "
+"outlying towns were sacked and burned. The new king inherited a land "
+"throughout which seeds of disaster were sown rife, and, inexperienced as he "
+"was, could do naught to quash their blossoming. Unrest spread across the "
+"continent. Trade evaporated. To the northeast, Lintanir burned in the fires "
+"of civil war. On the fringes of the Wesnothian empire, and even in the "
+"heartland, local lords ruled their fiefdoms as nations unto themselves, "
+"heeding not the edicts of the crown."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:27
+msgid ""
+"My name is Elynia-Thanadria, apprentice and adopted daughter of the Great "
+"Sorceress Niryone, of the Ka'lian in Wesmere. She taught me many things, and "
+"raised me as her own since my mother died. She was a great sorceress, "
+"skilled in the arts of faerie magic, and helped me greatly in my training. "
+"Though we traveled a good deal, nothing of very much importance happened "
+"during my early years. That all changed with the events that were about to "
+"occur, events of which I will now relate. Hear now, my story."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:32
+msgid ""
+"“I could tell Niryone was more troubled than she had let on. That was how "
+"she was — cool and calm in the face of danger, always dispatching whatever "
+"threat she faced cleanly and appearing none the worse for it later. It had "
+"sometimes caused me to wonder, but right now I had more pressing things to "
+"worry about. My friend was gone, and the creature that had been in his place "
+"blasted apart Niryone's spell. On her advice, we quickly resupplied and "
+"hurried west, to Elensefar, to see a seer she knew. But when we got there, "
+"we found something unexpected."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:41
+msgid ""
+"I still couldn't believe that Rhyan had been kidnapped. He always seemed so "
+"able to take care of himself. And why would anyone want <i>him</i>, "
+"specifically? To my own knowledge, he possessed almost no importance to "
+"anyone but myself. Or perhaps his father, though I could not see that "
+"someone would kidnap their own son in such a manner. In any case, now was "
+"not the time to dwell on it. First, to get him back, then later to figure "
+"out the why of the matter."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:46
+msgid ""
+"After driving back the outlaw incursion, we followed Aryon's advice and "
+"crossed the Great River, traveling north to meet with the dwarves. Lord "
+"Myris had lent us a few horses and men, and we made good time. I hoped the "
+"dwarves would indeed have some part of this puzzle. If not, well, I would "
+"just have to find Rhyan some other way."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:56
+msgid ""
+"We hurried south and then southeast, hoping the dwarvish scouts' information "
+"was correct. The words of both Aryon and the dwarves didn't seem to surprise "
+"Niryone. She had sensed a gathering storm and would not give up until she "
+"had followed it to the source. She was like that, sometimes; just another "
+"quirk of her character. But still, I was puzzled. Who <i>was</i> Rhyan that "
+"he would warrant a kidnapping and impersonation? The bandit leader's words "
+"might be taken by some to mean it was more than just my friend, but I wasn't "
+"sure. Either way, hopefully we will find something if we catch up to the "
+"party before they travel too far north."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:72
+msgid ""
+"The human was gone, and we had rescued Lord Myris. Anathryis managed to wake "
+"him, and he agreed to travel with a few of the dwarves back to Elensefar in "
+"secret to keep an eye on the situation. Though he could not remember much "
+"that could be of help, his captor had revealed something that did, and we "
+"now had an actual lead."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:76
+msgid ""
+"My mentor sat against her tent at night, staring at the twinkling stars "
+"scattered across the roof of the sky, thinking. I could see she was slowly "
+"putting together the pieces, and judging the possibilities. Whether any of "
+"those seemed more likely than the last, she did not tell me."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:81
+msgid ""
+"We are approaching Wesmere. We should arrive tomorrow, if we don't run into "
+"any more 'distractions'. Hopefully, the Ka'lian will be of some help. The "
+"path the human had intended to take seemed to be the obvious thread to bite, "
+"but would they? Niryone was one of them, but I did not know the others. "
+"Either way, I will find Rhyan."
+msgstr ""
+
+#. [part]
+#. In this scenario, the POV character changes from Elynia (female) to Rhyan (male), and continues into the next scenario
+#: NX-RPG/episode1/utils/storytext.cfg:90
+msgid "Awakening — Part I"
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:100
+msgid ""
+"We exited the underground complex through a suspiciously unguarded exit. "
+"From the vantage point in the hills around us, we could see the ground "
+"sloping gradually up behind us, while dropping away down into a valley a "
+"couple miles ahead of us. I thought I recognized the river that flowed "
+"through it, but couldn't be sure; it was too far away."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:105
+msgid ""
+"We headed west for a couple hours, until we came to a smaller valley between "
+"two taller peaks. Here, we found something unexpected."
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:121
+msgid "Descent"
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:129
+msgid "Awakening — Part II"
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:137
+msgid "Glyn's Forest"
+msgstr ""
+
+#. [part]
+#: NX-RPG/episode1/utils/storytext.cfg:145
+msgid "A Final Confrontation"
+msgstr ""
+
+#. [lua]: preshow
+#: NX-RPG/lua/gui/bug.lua:1506
+msgid ""
+"An inconsistency has been detected, and the scenario might not continue "
+"working as originally intended."
+msgstr ""
+
+#. [lua]: preshow
+#: NX-RPG/lua/gui/bug.lua:1507
+msgid "Please report this to the campaign maintainer!"
+msgstr ""
+
+#. [lua]: preshow
+#: NX-RPG/lua/gui/bug.lua:1510
+msgid "Message:"
+msgstr ""
+
+#. [lua]: preshow
+#: NX-RPG/lua/gui/bug.lua:1516
+msgid "Error"
+msgstr ""
+
+#. [lua]: preshow
+#: NX-RPG/lua/gui/bug.lua:1517
+msgid "Details"
+msgstr ""
+
+#: NX-RPG/macros/character_defines.cfg:8
+msgid "Niryone"
+msgstr ""
+
+#: NX-RPG/macros/character_defines.cfg:24
+msgid "Niolinde"
+msgstr ""
+
+#: NX-RPG/macros/character_defines.cfg:39
+msgid "Elorandas"
+msgstr ""
+
+#: NX-RPG/macros/character_defines.cfg:53
+msgid "Aryon"
+msgstr ""
+
+#: NX-RPG/macros/character_defines.cfg:67
+msgid "Mizenwyn"
+msgstr ""
+
+#. [transient_message]
+#: NX-RPG/macros/items.cfg:46
+msgid "Chest with gold"
+msgstr ""
+
+#. [transient_message]
+#: NX-RPG/macros/items.cfg:48
+msgid " gold found."
+msgstr ""
+
+#. [objective]: condition=win
+#: NX-RPG/macros/objective-utils.cfg:12
+msgid "Resist until the end of turns"
+msgstr ""
+
+#. [set_menu_item]: id=nx_help
+#: NX-RPG/macros/rpg-utils.cfg:6
+msgid "Campaign Help"
+msgstr ""
+
+#. [set_menu_item]: id=nx_inventory
+#: NX-RPG/macros/rpg-utils.cfg:15
+msgid "Inventory"
+msgstr ""
+
+#. [set_menu_item]: id=nx_spellcasting
+#: NX-RPG/macros/rpg-utils.cfg:29
+msgid "Spells"
+msgstr ""
+
+#. [learn_spell]: id=bind
+#: NX-RPG/macros/rpg-utils.cfg:47
+msgid "Bind"
+msgstr ""
+
+#. [learn_spell]: id=bind
+#: NX-RPG/macros/rpg-utils.cfg:49
+msgid "Prevents the target unit from moving or attacking for one turn."
+msgstr ""
+
+#. [part]
+#: NX-RPG/macros/scenario-utils.cfg:16
+msgid "Work in progress!"
+msgstr ""
+
+#. [part]
+#: NX-RPG/macros/scenario-utils.cfg:19
+msgid ""
+"This campaign is a work in progress, and you have just completed the last "
+"playable scenario. The next scenario is not available in this version, but "
+"you can play it in a future release if you keep this start-of-scenario saved "
+"game. For now, this is the end of the campaign.\n"
+"\n"
+"All feedback is welcome in the forum thread here: <http://r.wesnoth.org/"
+"t35544>.\n"
+"\n"
+"    — <i>The author</i>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#. [unit_type]: id=Gate, race=mechanical
+#: NX-RPG/macros/scenario-utils.cfg:127 NX-RPG/units/mechanical/Gate.cfg:5
+msgid "Gate"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: NX-RPG/macros/scenario-utils.cfg:129
+msgid "This gate is locked."
+msgstr ""
+
+#. [time]: id=indoors_darker
+#: NX-RPG/macros/schedules.cfg:6
+msgid "Indoors"
+msgstr ""
+
+#. [time]: id=dawn_rain
+#: NX-RPG/macros/schedules.cfg:16
+msgid "Rainy Dawn"
+msgstr ""
+
+#. [time]: id=morning_rain
+#: NX-RPG/macros/schedules.cfg:26
+msgid "Rainy Morning"
+msgstr ""
+
+#. [time]: id=afternoon_rain
+#: NX-RPG/macros/schedules.cfg:36
+msgid "Rainy Afternoon"
+msgstr ""
+
+#. [time]: id=dusk_rain
+#: NX-RPG/macros/schedules.cfg:46
+msgid "Rainy Dusk"
+msgstr ""
+
+#. [time]: id=first_watch_rain
+#: NX-RPG/macros/schedules.cfg:56
+msgid "Rainy First Watch"
+msgstr ""
+
+#. [time]: id=second_watch_rain
+#: NX-RPG/macros/schedules.cfg:66
+msgid "Rainy Second Watch"
+msgstr ""
+
+#: NX-RPG/macros/storytext-global.cfg:15
+msgid "Warning!"
+msgstr ""
+
+#: NX-RPG/macros/storytext-global.cfg:20
+msgid ""
+"Some scenarios of this campaign work significantly different from normal "
+"Wesnoth gameplay. It is especially important to pay close attention to the "
+"mission objectives and not necessarily try to kill every single enemy, "
+"especially on shrouded maps, or in places where enemies seem to respawn "
+"continuously.\n"
+"\n"
+"Also, this campaign incorporates many unique RPG elements. If get stuck, you "
+"can always read the <i>Campaign Help</i> option in the right-click menu."
+msgstr ""
+
+#: NX-RPG/macros/storytext-global.cfg:25
+msgid ""
+"A game screen resolution of <b>800x600 or greater</b> is recommended. Some "
+"sequences make use of floating labels, halos, and standing unit animations, "
+"so you might want to make sure these options are enabled under "
+"<b>Preferences</b> → <b>Display</b>."
+msgstr ""
+
+#: NX-RPG/macros/storytext-global.cfg:29
+msgid ""
+"Additionally, the music add-on <i>NX-Music</i> is not installed. Custom "
+"music will not be played!"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Miner, race=dwarf
+#: NX-RPG/units/dwarves/Miner.cfg:5
+msgid "Dwarvish Miner"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Miner, race=dwarf
+#: NX-RPG/units/dwarves/Miner.cfg:19
+msgid ""
+"Dwarvish miners are the grunt workers of Dwarvish society. They take the "
+"precious ores out of the ground, but do not ever take part in the crafting "
+"of weapons or artifacts."
+msgstr ""
+
+#. [attack]: type=pierce
+#: NX-RPG/units/dwarves/Miner.cfg:25
+msgid "pick"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Outcast, race=dwarf
+#: NX-RPG/units/dwarves/Outcast.cfg:5
+msgid "Dwarvish Outcast"
+msgstr ""
+
+#. [unit_type]: id=Dwarvish Outcast, race=dwarf
+#: NX-RPG/units/dwarves/Outcast.cfg:19
+msgid ""
+"The dwarven society can be, at times, a harsh one. Those members who cannot, "
+"or will not, contribute to the mining and crafting of ores and materials "
+"will sometimes be banished from their clans. Though this is not a very "
+"common occurrence, those who are banished usually wander the lands, finding "
+"work where they can. It is said that more than one case of materials "
+"vanishing from camps can be attributed to these dwarves."
+msgstr ""
+
+#. [unit_type]: id=Elvish Apprentice, race=elf
+#: NX-RPG/units/elves/Apprentice.cfg:5
+msgid "female^Elvish Apprentice"
+msgstr ""
+
+#. [unit_type]: id=Elvish Apprentice, race=elf
+#: NX-RPG/units/elves/Apprentice.cfg:21
+msgid ""
+"Young elves who wish to learn the ways of magic may become apprentices, "
+"traveling and learning with a more experiences sorcerer or sorceress. Their "
+"skills can vary greatly, but are still more than capable of defending "
+"themselves, and can sometimes leave quite a mark on their foes."
+msgstr ""
+
+#. [attack]: type=fire
+#: NX-RPG/units/elves/Apprentice.cfg:37
+msgid "mystic fire"
+msgstr ""
+
+#. [unit_type]: id=Elvish Spellbinder, race=elf
+#: NX-RPG/units/elves/Spellbinder.cfg:5
+msgid "female^Elvish Spellbinder"
+msgstr ""
+
+#. [unit_type]: id=Elvish Spellbinder, race=elf
+#. [unit_type]: id=Villager, race=human
+#. [unit_type]: id=Wanderer, race=human
+#: NX-RPG/units/elves/Spellbinder.cfg:21 NX-RPG/units/humans/Villager.cfg:19
+#: NX-RPG/units/humans/Woodsman_Wanderer.cfg:20
+msgid "FIXME"
+msgstr ""
+
+#. [race]: id=northguard
+#: NX-RPG/units/humans.cfg:5 NX-RPG/units/humans.cfg:7
+msgid "race^Northguard"
+msgstr ""
+
+#. [race]: id=northguard
+#: NX-RPG/units/humans.cfg:6
+msgid "race+female^Northguard"
+msgstr ""
+
+#. [race]: id=northguard
+#. [unit_type]: id=Northguard Archer, race=northguard
+#. [unit_type]: id=Northguard Deathblade, race=northguard
+#. [unit_type]: id=Northguard Fighter, race=northguard
+#. [unit_type]: id=Northguard Nightshaft, race=northguard
+#. [unit_type]: id=Northguard Silverbow, race=northguard
+#. [unit_type]: id=Northguard Warrior, race=northguard
+#. [unit_type]: id=Shadow Regent, race=human
+#: NX-RPG/units/humans.cfg:8 NX-RPG/units/humans/Northguard_Archer.cfg:18
+#: NX-RPG/units/humans/Northguard_Deathblade.cfg:19
+#: NX-RPG/units/humans/Northguard_Fighter.cfg:18
+#: NX-RPG/units/humans/Northguard_Nightshaft.cfg:19
+#: NX-RPG/units/humans/Northguard_Silverbow.cfg:18
+#: NX-RPG/units/humans/Northguard_Warrior.cfg:18
+#: NX-RPG/units/humans/Shadow_Regent.cfg:19
+msgid "TODO"
+msgstr ""
+
+#. [unit_type]: id=Northguard Archer, race=northguard
+#: NX-RPG/units/humans/Northguard_Archer.cfg:5
+msgid "Archer"
+msgstr ""
+
+#. [attack]: type=pierce
+#: NX-RPG/units/humans/Northguard_Archer.cfg:23
+msgid "weapon^shortbow"
+msgstr ""
+
+#. [unit_type]: id=Northguard Deathblade, race=northguard
+#: NX-RPG/units/humans/Northguard_Deathblade.cfg:5
+msgid "Deathblade"
+msgstr ""
+
+#. [attack]: type=blade
+#: NX-RPG/units/humans/Northguard_Deathblade.cfg:25
+msgid "weapon^deathblade"
+msgstr ""
+
+#. [unit_type]: id=Northguard Fighter, race=northguard
+#: NX-RPG/units/humans/Northguard_Fighter.cfg:5
+msgid "Fighter"
+msgstr ""
+
+#. [attack]: type=blade
+#: NX-RPG/units/humans/Northguard_Fighter.cfg:23
+msgid "weapon^short sword"
+msgstr ""
+
+#. [unit_type]: id=Northguard Nightshaft, race=northguard
+#: NX-RPG/units/humans/Northguard_Nightshaft.cfg:5
+msgid "Nightshaft"
+msgstr ""
+
+#. [attack]: type=pierce
+#: NX-RPG/units/humans/Northguard_Nightshaft.cfg:24
+#: NX-RPG/units/humans/Northguard_Silverbow.cfg:23
+msgid "weapon^bow"
+msgstr ""
+
+#. [attack]: type=blade
+#: NX-RPG/units/humans/Northguard_Nightshaft.cfg:34
+#: NX-RPG/units/humans/Northguard_Silverbow.cfg:33
+msgid "weapon^sword"
+msgstr ""
+
+#. [unit_type]: id=Northguard Silverbow, race=northguard
+#: NX-RPG/units/humans/Northguard_Silverbow.cfg:5
+msgid "Silverbow"
+msgstr ""
+
+#. [unit_type]: id=Northguard Warrior, race=northguard
+#: NX-RPG/units/humans/Northguard_Warrior.cfg:5
+msgid "Warrior"
+msgstr ""
+
+#. [attack]: type=blade
+#: NX-RPG/units/humans/Northguard_Warrior.cfg:23
+msgid "weapon^twin swords"
+msgstr ""
+
+#. [unit_type]: id=Shadow Regent, race=human
+#: NX-RPG/units/humans/Shadow_Regent.cfg:5
+msgid "Shadow Regent"
+msgstr ""
+
+#. [attack]: type=impact
+#: NX-RPG/units/humans/Shadow_Regent.cfg:24
+msgid "broadsword"
+msgstr ""
+
+#. [attack]: type=cold
+#: NX-RPG/units/humans/Shadow_Regent.cfg:33
+msgid "chill wave"
+msgstr ""
+
+#. [attack]: type=arcane
+#: NX-RPG/units/humans/Shadow_Regent.cfg:45
+msgid "shadow wave"
+msgstr ""
+
+#. [unit_type]: id=Villager, race=human
+#: NX-RPG/units/humans/Villager.cfg:5
+msgid "Villager"
+msgstr ""
+
+#. [unit_type]: id=Wanderer, race=human
+#: NX-RPG/units/humans/Woodsman_Wanderer.cfg:5
+msgid "Wanderer"
+msgstr ""
+
+#. [unit_type]: id=Caravan, race=mechanical
+#: NX-RPG/units/mechanical/Caravan.cfg:5
+msgid "Caravan"
+msgstr ""
+
+#. [unit_type]: id=Caravan, race=mechanical
+#: NX-RPG/units/mechanical/Caravan.cfg:18
+msgid ""
+"Caravans are used to carry gold or supplies long distances. Because of the "
+"immense weight of the cargo this caravan carries, it moves very slowly."
+msgstr ""
+
+#. [attack]: type=impact
+#: NX-RPG/units/mechanical/Caravan.cfg:24
+msgid "run down"
+msgstr ""
+
+#. [unit_type]: id=Gate, race=mechanical
+#: NX-RPG/units/mechanical/Gate.cfg:18
+msgid ""
+"The gate will open only to those who are allied with its owners, unless "
+"struck down by their enemies first."
+msgstr ""
+
+#. [unit_type]: id=Leech, race=monster
+#: NX-RPG/units/monsters/Leech.cfg:5
+msgid "Leech"
+msgstr ""
+
+#. [unit_type]: id=Leech, race=monster
+#: NX-RPG/units/monsters/Leech.cfg:45
+msgid ""
+"Leeches are universally known for their common diet: the warm blood of "
+"various bigger creatures. However, this is exactly why they are often used "
+"for medicinal purposes.\n"
+"\n"
+"Although not directly related, the same name is applied to groups of strange "
+"worms attached to the ground, found in subterrainian caverns. They cannot "
+"move around in search of prey, but they are dangerous none the less. If an "
+"unwary victim gets close enough, the creatures will trap them with their "
+"deadly tentacles and swallow their blood, which increases their strength and "
+"heals their wounds.\n"
+"\n"
+"It is fortunate that they have not developed legs; otherwise, they would be "
+"an almost unstoppable menace to explorers and dwellers of the caves they\n"
+"inhabit."
+msgstr ""
+
+#. [attack]: type=pierce
+#: NX-RPG/units/monsters/Leech.cfg:59
+msgid "drainer"
+msgstr ""
+
+#. [unit_type]: id=Northguard Direwolf, race=wolf
+#: NX-RPG/units/monsters/Northguard_Direwolf.cfg:5
+msgid "Northguard Direwolf"
+msgstr ""
+
+#. [unit_type]: id=Northguard Direwolf, race=wolf
+#: NX-RPG/units/monsters/Northguard_Direwolf.cfg:24
+msgid ""
+"Wolves are aggressive animals that hunt in packs. Although weak "
+"individually, a wolf pack can kill even the strongest man in minutes."
+msgstr ""
+
+#. [attack]: type=blade
+#: NX-RPG/units/monsters/Northguard_Direwolf.cfg:30
+msgid "fangs"
+msgstr ""
+
+#. [attack]: type=cold
+#: NX-RPG/units/monsters/Northguard_Direwolf.cfg:40
+msgid "arctic blast"
+msgstr ""
+
+#. [unit_type]: id=Death Baron, race=undead
+#: NX-RPG/units/undead/Skele_Death_Baron.cfg:5
+msgid "Death Baron"
+msgstr ""
+
+#. [unit_type]: id=Death Baron, race=undead
+#: NX-RPG/units/undead/Skele_Death_Baron.cfg:39
+msgid ""
+"Sometimes the mightiest warriors and generals, cursed with hate and angst, "
+"come back to this world as Death Knights. Death Barons serve them whilst "
+"accruing enough unholy power to advance to the level of their masters. In "
+"the process, they pick up a good deal of the Knight’s skills, including the "
+"ability to easily and effectively command underlings."
+msgstr ""
+
+#. [unit_type]: id=Bone Knight, race=undead
+#: NX-RPG/units/undead/Skeleton_Knight.cfg:5
+msgid "Bone Knight"
+msgstr ""
+
+#. [unit_type]: id=Bone Knight, race=undead
+#: NX-RPG/units/undead/Skeleton_Knight.cfg:26
+msgid ""
+"The horsemen with the most experienced rose quickly through the ranks, only "
+"to find death that much closer. They gained significant knowledge in "
+"weaponry and tactics, even being able to carry a crossbow in addition to "
+"their axes. These riders now wander the world, doing the bidding of their "
+"dark masters that summoned this to fight once again. Their strength remains "
+"great, and, in death as in life, novice units should not attempt to do "
+"battle with one alone."
+msgstr ""
+
+#. [attack]: type=impact
+#: NX-RPG/units/undead/Skeleton_Knight.cfg:45
+msgid "trample"
+msgstr ""
+
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: NX-RPG/units/undead/Skeleton_Rider.cfg:5
+msgid "Skeleton Rider"
+msgstr ""
+
+#. [unit_type]: id=Skeleton Rider, race=undead
+#: NX-RPG/units/undead/Skeleton_Rider.cfg:26
+msgid ""
+"These mounted skeletons were once great warriors thundering across the "
+"plains. In life, they had not yet acquired the skill and strength of the "
+"more experienced of their ranks, but they were equal in terms of speed; they "
+"could dash into battle as fast as those more experienced. This is still "
+"apparent even now, trapped in unlife as they are to spread fear and "
+"destruction. Novice fighters should have no problem fighting these, but need "
+"remember the speed of the skeletal mounts."
+msgstr ""
+
+#. [editor_group]: id=NX-RPG-terrain
+#: NX-RPG/utils/terrain.cfg:5
+msgid "NX-RPG (custom terrains)"
+msgstr ""
+
+#. [terrain_type]: id=gate_se
+#: NX-RPG/utils/terrain.cfg:13
+msgid "Gate (se)"
+msgstr ""
+
+#. [terrain_type]: id=gate_sw
+#: NX-RPG/utils/terrain.cfg:24
+msgid "Gate (sw)"
+msgstr ""
+
+#. [terrain_type]: id=gate_locked_se
+#: NX-RPG/utils/terrain.cfg:35
+msgid "Locked Gate (se)"
+msgstr ""
+
+#. [terrain_type]: id=gate_locked_sw
+#: NX-RPG/utils/terrain.cfg:46
+msgid "Locked Gate (sw)"
+msgstr ""
+
+#. [terrain_type]: id=abyss-volcanic
+#: NX-RPG/utils/terrain.cfg:57
+msgid "Volcanic Abyss"
+msgstr ""
+
+#. [terrain_type]: id=brazier_lit
+#: NX-RPG/utils/terrain.cfg:68
+msgid "Lit Brazier"
+msgstr ""
+
+#. [terrain_type]: id=brazier
+#: NX-RPG/utils/terrain.cfg:79
+msgid "Brazier"
+msgstr ""
+
+#. [terrain_type]: id=shop
+#: NX-RPG/utils/terrain.cfg:90
+msgid "Shop"
+msgstr ""
+
+#. [terrain_type]: id=dark-castle
+#: NX-RPG/utils/terrain.cfg:101
+msgid "Dark Castle"
+msgstr ""
+
+#. [terrain_type]: id=dark-keep
+#: NX-RPG/utils/terrain.cfg:115
+msgid "Dark Keep"
+msgstr ""
+
+#. [terrain_type]: id=floor_tiled_dark
+#: NX-RPG/utils/terrain.cfg:129
+msgid "Dark Tiled Floor"
+msgstr ""
+
+#. [terrain_type]: id=nx_carpet
+#: NX-RPG/utils/terrain.cfg:152
+msgid "Carpet"
+msgstr ""
+
+#. [terrain_type]: id=earthy_rocky_cave
+#: NX-RPG/utils/terrain.cfg:165
+msgid "Earthy Rockbound Cave"
+msgstr ""
+
+#. [terrain_type]: id=residential
+#: NX-RPG/utils/terrain.cfg:177
+msgid "City Area"
+msgstr ""
+
+#. [terrain_type]: id=residential-village
+#: NX-RPG/utils/terrain.cfg:188
+msgid "Arsenal"
+msgstr ""
