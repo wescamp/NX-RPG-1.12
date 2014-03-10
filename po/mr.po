@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: NX-RPG-1.12\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-25 19:05-0400\n"
+"POT-Creation-Date: 2014-03-10 01:48+0100\n"
 "PO-Revision-Date: 2013-08-25 19:05-0400\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -2930,29 +2930,29 @@ msgid "A Final Confrontation"
 msgstr ""
 
 #. [lua]: preshow
-#: NX-RPG/lua/gui/bug.lua:1506
+#: NX-RPG/lua/gui/bug.lua:2362
 msgid ""
 "An inconsistency has been detected, and the scenario might not continue "
 "working as originally intended."
 msgstr ""
 
 #. [lua]: preshow
-#: NX-RPG/lua/gui/bug.lua:1507
+#: NX-RPG/lua/gui/bug.lua:2363
 msgid "Please report this to the campaign maintainer!"
 msgstr ""
 
 #. [lua]: preshow
-#: NX-RPG/lua/gui/bug.lua:1510
+#: NX-RPG/lua/gui/bug.lua:2366
 msgid "Message:"
 msgstr ""
 
 #. [lua]: preshow
-#: NX-RPG/lua/gui/bug.lua:1516
+#: NX-RPG/lua/gui/bug.lua:2372
 msgid "Error"
 msgstr ""
 
 #. [lua]: preshow
-#: NX-RPG/lua/gui/bug.lua:1517
+#: NX-RPG/lua/gui/bug.lua:2373
 msgid "Details"
 msgstr ""
 
