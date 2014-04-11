@@ -2,6 +2,22 @@
 Miscellaneous utilities.
 ===============================================================================
 
+`lp8.noop()`
+-------------------------------------------------------------------------------
+Does nothing. More useful than it might sound.
+
+
+`lp8.idem(...)`
+-------------------------------------------------------------------------------
+Takes any quantity of arguments, and returns them all untouched. More useful
+than it might sound.
+
+
+`lp8.to_boolean(x)`
+-------------------------------------------------------------------------------
+If `x` is nil or false, returns false; otherwise, returns true.
+
+
 `lp8.keys(table, start_key)`
 -------------------------------------------------------------------------------
 Returns an iterator over each key in `table`, starting at `start_key` (which
@@ -41,6 +57,9 @@ Returns a function compiled from `ld`.
 environment.
 
 `source` is an optional name for whatever’s being loaded, for error reporting.
+
+If `ld` cannot be compiled (e.g., due to a syntax error), returns two values:
+`nil` and an error message.
 
 
 `lp8.flip(x, control)`

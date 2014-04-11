@@ -52,10 +52,13 @@ function wml_actions.inventory_controller(cfg)
 				wesnoth.set_dialog_value(item.image, "inventory_list", i, "list_image")
 			end
 
-			wesnoth.set_dialog_value(item.name, "inventory_list", i, "list_name")
+			wesnoth.set_dialog_value("<b>" .. item.name .. "</b>", "inventory_list", i, "list_name")
+			wesnoth.set_dialog_markup(true,                        "inventory_list", i, "list_name")
+
 			wesnoth.set_dialog_value(item.name, "details_pages", i, "details_name")
 			wesnoth.set_dialog_value(item.quantity or 1, "inventory_list", i, "list_quantity")
-			wesnoth.set_dialog_value(item.description, "details_pages", i, "details_description")
+			wesnoth.set_dialog_value("<i>" .. item.description .. "</i>", "details_pages", i, "details_description")
+			wesnoth.set_dialog_markup(true,                               "details_pages", i, "details_description")
 
 			page_count = i
 		end
@@ -164,6 +167,12 @@ function wml_actions.inventory_controller(cfg)
 		refresh_use_button_text(i)
 	end
 
+	local function give_item()
+	end
+
+	local function drop_item()
+	end
+
 	local function inventory_preshow()
 		-- List for units
 		if units_adjacent_to_unit_using_inventory then
@@ -178,6 +187,8 @@ function wml_actions.inventory_controller(cfg)
 
 		wesnoth.set_dialog_callback(select_from_inventory, "inventory_list")
 		wesnoth.set_dialog_callback(use_item, "use_button")
+		wesnoth.set_dialog_callback(give_item, "give_button")
+		wesnoth.set_dialog_callback(drop_item, "drop_button")
 
 		-- Sets initial values of stuff
 		print_item_list()

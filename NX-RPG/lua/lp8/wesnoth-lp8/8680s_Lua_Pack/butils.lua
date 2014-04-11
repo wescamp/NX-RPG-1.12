@@ -14,6 +14,15 @@ local h = lp8.helper
 lp8.export({}, 'AND')
 lp8.export({}, 'OR')
 
+local function noop()
+end
+lp8.export(noop, 'noop')
+
+local function idem(...)
+	return ...
+end
+lp8.export(idem, 'idem')
+
 function lp8.nyil(f)
 	error("Not yet implemented: " .. f, 2)
 end
@@ -25,6 +34,28 @@ end
 function lp8.tblorudt(x)
 	return type(x) == 'table' or type(x) == 'userdata'
 end
+
+local function dbgstr(x, typeof)
+	local ty = typeof and typeof(x) or type(x)
+	if ty == 'table' or ty == 'function' or ty == 'userdata'
+			or x == nil then
+		return tostring(x)
+	elseif ty == 'string' then
+		return ("string: %q"):format(x)
+	else
+		return tostring(ty) .. ': ' .. tostring(x)
+	end
+end
+lp8.export(dbgstr, 'dbgstr')
+
+local function toBoolean(x)
+	if x then
+		return true
+	else
+		return false
+	end
+end
+lp8.export(toBoolean, 'to_boolean')
 
 local function keys(t, k)
 	return function(s)
@@ -53,14 +84,18 @@ end
 lp8.export(ivalues, 'ivalues')
 
 local function lp8load(ld, env, name)
-	if not loadstring then
+	if not setfenv then
 		return load(ld, name, nil, env)
 	else
-		ld = (type(ld) == 'string' and loadstring or
+		local ld, e = (type(ld) == 'string' and loadstring or
 			type(ld) == 'function' and load or
 			error("expected string or function as first argument; received "
 				.. ty))(ld, name)
-		return ld and setfenv(ld, env)
+		if ld then
+			return setfenv(ld, env)
+		else
+			return nil, e
+		end
 	end
 end
 lp8.export(lp8load, 'load')

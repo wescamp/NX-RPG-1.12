@@ -17,9 +17,12 @@ function wml_actions.spellcasting_controller(cfg)
 			wesnoth.set_dialog_value(spell.name, "spell_list", i, "spell_name")
 			wesnoth.set_dialog_value(spell.description, "details_pages", i, "details_description")
 
-			-- Sets notice of there are no valid targets
+			-- Sets notice if there are no valid targets
 			if not wesnoth.eval_conditional { {'have_location', helper.get_child(spell, 'target_filter')} } then
-				wesnoth.set_dialog_value(_"No valid targets for this spell", "details_pages", i, "details_notice_validity")
+				wesnoth.set_dialog_value(_"<span color='#ff0000'>No valid targets for this spell</span>",
+					"details_pages", i, "details_notice_validity")
+				wesnoth.set_dialog_markup(true,
+					"details_pages", i, "details_notice_validity")
 			end
 
 			-- Sets notice if the spell is still cooling
@@ -30,7 +33,10 @@ function wml_actions.spellcasting_controller(cfg)
 					turnstext = _"turn remaining"
 				end
 
-				wesnoth.set_dialog_value(string.format("%s\n(%i %s)", _"This spell is cooling down", spell.cooldown_remaining, turnstext), "details_pages", i, "details_notice_cooling")
+				wesnoth.set_dialog_value(string.format("<span color='#ff0000'>%s\n(%i %s)</span>", _"This spell is cooling down", spell.cooldown_remaining, turnstext),
+					"details_pages", i, "details_notice_cooling")
+				wesnoth.set_dialog_markup(true,
+					"details_pages", i, "details_notice_cooling")
 			end
 
 			page_count = i
@@ -54,7 +60,7 @@ function wml_actions.spellcasting_controller(cfg)
 		selected_row = i
 		wesnoth.set_dialog_value(i, "details_pages")
 
-		-- Disables the Cast button if the spell is still in cooldown or is there are no valid targets
+		-- Disables the Cast button if the spell is still in cooldown or there are no valid targets
 		if spell.cooldown_remaining ~= 0 or not wesnoth.eval_conditional { {'have_location', helper.get_child(spell, 'target_filter')} } then
 			wesnoth.set_dialog_active(false, "cast_button")
 		else
@@ -63,8 +69,8 @@ function wml_actions.spellcasting_controller(cfg)
 	end
 
 	-- Applies the effect of the spell
-	-- Overlays are placed over every location a potential target for the spell
-	-- A menu item that shows on all of these hexes. Using it triggers the spell
+	-- Overlays are placed over every location that is a potential target for the spell
+	-- A menu item will show on all of these hexes. Using it triggers the spell
 	local function cast_spell()
 		local i = wesnoth.get_dialog_value("spell_list")
 		local list_spell = spell_list_data[i]
@@ -104,9 +110,9 @@ function wml_actions.spellcasting_controller(cfg)
 		wesnoth.set_dialog_callback(select_spell, "spell_list")
 		wesnoth.set_dialog_callback(cast_spell, "cast_button")
 
-		-- Sets initial values
 		print_spell_list()
 
+		-- Sets initial values
 		wesnoth.set_dialog_value(1, "spell_list")
 		select_spell()
 	end
@@ -118,7 +124,7 @@ function wml_actions.spellcasting_controller(cfg)
 	end 
 end
 
--- Decreases the cooldown time every turn
+-- Decreases the cooldown time for each spell every turn
 function decrease_cooldown_time()
 	for unit in lp8.values(wesnoth.get_units {id = 'Niryone, Elynia'}) do
 		unit = unit.__cfg
